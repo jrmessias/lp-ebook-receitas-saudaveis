@@ -24,7 +24,7 @@ import { Apple, UtensilsCrossed, Dumbbell } from 'lucide-vue-next'
           Descubra receitas fáceis e gostosas que todos vão amar!
         </h2>
         <div class="flex flex-col md:flex-row items-center justify-center mb-8">
-          <img src="/mockup.png" width="250" alt="Capa do eBook" class="rounded-lg drop-shadow-md mb-4 md:mb-0 md:mr-8" />
+          <img src="/assets/img/mockup.png" width="250" alt="Capa do eBook" class="rounded-lg drop-shadow-md mb-4 md:mb-0 md:mr-8" />
           <p class="text-2xl text-gray-700 max-w-2xl text-center">
             Nosso e-book tem receitas rápidas para você preparar para sua família. Imagine comer coisas gostosas que fazem bem para o corpo e ainda impressionam a família!
           </p>
@@ -61,6 +61,7 @@ import { Apple, UtensilsCrossed, Dumbbell } from 'lucide-vue-next'
         <h2 class="text-3xl md:text-4xl font-bold text-green-800 mb-8 text-center">
           Veja o que as pessoas que já baixaram dizem!
         </h2>
+<!--        <TestimonialCarousel />-->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div class="bg-white p-6 rounded-lg shadow-md">
             <div class="flex items-center mb-4">
