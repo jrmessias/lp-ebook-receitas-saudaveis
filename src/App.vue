@@ -121,6 +121,26 @@ import FaqAccordion from "./components/FaqAccordion.vue";
       </div>
     </section>
 
+    <!-- 7-Day Guarantee Section -->
+    <section class="bg-white py-16">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-col md:flex-row items-center justify-center">
+          <img src="/assets/img/selo7dias.png" width="250" alt="Selo de Garantia de 7 Dias" class="mb-8 md:mb-0 md:mr-8" />
+          <div class="md:max-w-2xl">
+            <h2 class="text-3xl md:text-4xl font-bold text-green-800 mb-6 text-center md:text-left">
+              Garantia de Satisfação de 7 Dias
+            </h2>
+            <p class="text-lg text-gray-700 text-center md:text-left mb-4">
+              Estamos tão confiantes de que você vai adorar nosso e-book de receitas saudáveis que oferecemos uma garantia de satisfação de 7 dias.
+            </p>
+            <p class="text-lg text-gray-700 text-center md:text-left">
+              Se por qualquer motivo você não estiver completamente satisfeito com o conteúdo, basta solicitar o reembolso dentro de 7 dias após a compra, e nós reembolsaremos 100% do seu investimento, sem perguntas!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- FAQ Section -->
     <section class="bg-white py-16">
       <div class="container mx-auto px-4">
