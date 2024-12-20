@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { Apple, UtensilsCrossed, Dumbbell } from 'lucide-vue-next'
+import { Apple, UtensilsCrossed, Dumbbell, Baby, Clock } from 'lucide-vue-next'
+import FaqAccordion from "./components/FaqAccordion.vue";
 </script>
 
 <template>
@@ -9,9 +10,9 @@ import { Apple, UtensilsCrossed, Dumbbell } from 'lucide-vue-next'
       <h1 class="text-4xl md:text-6xl font-bold text-green-800 mb-4">
         Receitas Saudáveis para o Seu Dia a Dia
       </h1>
-      <p class="text-xl md:text-2xl text-green-600 mb-8">
+      <h2 class="text-xl md:text-2xl text-green-600 mb-8">
         Mais de 30 opções de receitas rápidas para café da manhã, almoço, lanche, jantar + bônus!
-      </p>
+      </h2>
       <button class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-full transition duration-300 ease-in-out transform hover:scale-105">
         Clique aqui para baixar e se tornar um chef saudável!
       </button>
@@ -21,12 +22,12 @@ import { Apple, UtensilsCrossed, Dumbbell } from 'lucide-vue-next'
     <section class="bg-white py-16">
       <div class="container mx-auto px-4">
         <h2 class="text-3xl md:text-4xl font-bold text-green-700 mb-6 text-center">
-          Descubra receitas fáceis e gostosas que todos vão amar!
+          Descubra receitas rápidas, fáceis e gostosas que todos vão amar!
         </h2>
         <div class="flex flex-col md:flex-row items-center justify-center mb-8">
           <img src="/assets/img/mockup.png" width="250" alt="Capa do eBook" class="rounded-lg drop-shadow-md mb-4 md:mb-0 md:mr-8" />
           <p class="text-2xl text-gray-700 max-w-2xl text-center">
-            Nosso e-book tem receitas rápidas para você preparar para sua família. Imagine comer coisas gostosas que fazem bem para o corpo e ainda impressionam a família!
+            Nosso e-book tem receitas rápidas para você preparar para sua família. Imagine comer coisas gostosas e saudáveis que fazem bem para o corpo e ainda impressionam a família!
           </p>
         </div>
       </div>
@@ -36,12 +37,12 @@ import { Apple, UtensilsCrossed, Dumbbell } from 'lucide-vue-next'
     <section class="container mx-auto px-4 py-16 bg-cover bg-center">
       <div class="bg-opacity-90 p-8 rounded-lg">
         <h2 class="text-3xl md:text-4xl font-bold text-green-800 mb-8 text-center">
-          Por que você vai amar essas receitas?
+          Por que você vai amar essas receitas saudáveis?
         </h2>
         <ul class="space-y-4 max-w-2xl mx-auto">
           <li class="flex items-center text-2xl text-green-700">
             <Apple class="h-8 w-8 mr-4 text-red-500" />
-            Comidas gostosas e saudáveis!
+            Comidas rápidas, gostosas e saudáveis!
           </li>
           <li class="flex items-center text-2xl text-green-700">
             <UtensilsCrossed class="h-8 w-8 mr-4 text-orange-500" />
@@ -50,6 +51,14 @@ import { Apple, UtensilsCrossed, Dumbbell } from 'lucide-vue-next'
           <li class="flex items-center text-2xl text-green-700">
             <Dumbbell class="h-8 w-8 mr-4 text-blue-500" />
             Faz bem para o corpo e a saúde!
+          </li>
+          <li class="flex items-center text-2xl text-green-700">
+            <Clock class="h-8 w-8 mr-4 text-red-500" />
+            Receitas rápidas para todos horários!
+          </li>
+          <li class="flex items-center text-2xl text-green-700">
+            <Baby class="h-8 w-8 mr-4 text-orange-500" />
+            Receitas para todas idades!
           </li>
         </ul>
       </div>
@@ -112,6 +121,16 @@ import { Apple, UtensilsCrossed, Dumbbell } from 'lucide-vue-next'
       </div>
     </section>
 
+    <!-- FAQ Section -->
+    <section class="bg-white py-16">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl md:text-4xl font-bold text-green-800 mb-8 text-center">
+          Perguntas Frequentes
+        </h2>
+        <FaqAccordion />
+      </div>
+    </section>
+
     <!-- Call to Action -->
     <section class="container mx-auto px-4 py-16 text-center">
       <h2 class="text-3xl md:text-4xl font-bold text-green-800 mb-8">
@@ -122,6 +141,13 @@ import { Apple, UtensilsCrossed, Dumbbell } from 'lucide-vue-next'
       </button>
     </section>
   </div>
+
+  <!-- Footer -->
+  <footer class="bg-green-800 text-white py-8">
+    <div class="container mx-auto px-4 text-center">
+      <p>&copy; {{ new Date().getFullYear() }} Melli Criações. Todos os direitos reservados.</p>
+    </div>
+  </footer>
 </template>
 
 <style scoped>
