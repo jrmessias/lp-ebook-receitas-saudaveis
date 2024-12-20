@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { Apple, UtensilsCrossed, Dumbbell, Baby, Clock } from 'lucide-vue-next'
-import FaqAccordion from "./components/FaqAccordion.vue";
+import FaqAccordion from "/components/FaqAccordion.vue";
 </script>
 
 <template>
