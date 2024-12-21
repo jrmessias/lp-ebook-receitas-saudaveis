@@ -13,9 +13,9 @@ import FaqAccordion from "./components/FaqAccordion.vue";
       <h2 class="text-xl md:text-2xl text-green-600 mb-8">
         Mais de 30 opções de receitas rápidas para café da manhã, almoço, lanche, jantar + bônus!
       </h2>
-      <button class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-full transition duration-300 ease-in-out transform hover:scale-105">
+      <a href="https://pay.kiwify.com.br/PEeRXnz" target="_blank" class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-full transition duration-300 ease-in-out transform hover:scale-105">
         Clique aqui para baixar e se tornar um chef saudável!
-      </button>
+      </a>
     </section>
 
     <!-- eBook Presentation -->
@@ -25,7 +25,7 @@ import FaqAccordion from "./components/FaqAccordion.vue";
           Descubra receitas rápidas, fáceis e gostosas que todos vão amar!
         </h2>
         <div class="flex flex-col md:flex-row items-center justify-center mb-8">
-          <img src="/assets/img/mockup.png" width="250" alt="Capa do eBook" class="rounded-lg drop-shadow-md mb-4 md:mb-0 md:mr-8" />
+          <img src="/assets/img/mockup.png" width="254" alt="Capa do eBook" class="rounded-lg drop-shadow-md mb-4 md:mb-0 md:mr-8" />
           <p class="text-2xl text-gray-700 max-w-2xl text-center">
             Nosso e-book tem receitas rápidas para você preparar para sua família. Imagine comer coisas gostosas e saudáveis que fazem bem para o corpo e ainda impressionam a família!
           </p>
@@ -156,9 +156,9 @@ import FaqAccordion from "./components/FaqAccordion.vue";
       <h2 class="text-3xl md:text-4xl font-bold text-green-800 mb-8">
         Vamos Começar?
       </h2>
-      <button class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-full transition duration-300 ease-in-out transform hover:scale-105 text-xl">
+      <a href="https://pay.kiwify.com.br/PEeRXnz" target="blank" class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-full transition duration-300 ease-in-out transform hover:scale-105 text-xl">
         Baixe Seu E-book Agora!
-      </button>
+      </a>
     </section>
   </div>
 
