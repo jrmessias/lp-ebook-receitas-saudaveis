@@ -14,7 +14,7 @@ import FaqAccordion from "./components/FaqAccordion.vue";
         Mais de 30 opções de receitas rápidas para café da manhã, almoço, lanche, jantar + bônus!
       </h2>
       <a href="https://pay.kiwify.com.br/PEeRXnz" target="_blank" class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-full transition duration-300 ease-in-out transform hover:scale-105">
-        Clique aqui para baixar e se tornar um chef saudável!
+        Clique aqui para baixar!
       </a>
     </section>
 
